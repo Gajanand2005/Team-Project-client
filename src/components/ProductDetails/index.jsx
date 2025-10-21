@@ -13,7 +13,7 @@ const ProductDetailsComponent = () => {
         <span className="text-gray-400">
           Brand :{" "}
           <span className="font-[500] text-black opacity-75">
-            S-Mal Couture
+           E-commersce
           </span>
         </span>
       </div>

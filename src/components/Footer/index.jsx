@@ -56,13 +56,13 @@ const Footer = () => {
             {/* Contact us */}
             <div>
               <h3 className="text-base font-semibold mb-3">Contact us</h3>
-              <p className="mb-1 text-sm">S-Mal Couture</p>
+              <p className="mb-1 text-sm">shipping</p>
 
               <p className="mb-1 text-sm">
                 Pull Bazar, Near Shiv Mandir Narnaul Haryana Pincode:- 123001
               </p>
 
-              <p className="mb-1 text-sm">smalcouture@gmail.com</p>
+              <p className="mb-1 text-sm">gagan@gmail.com</p>
               <p className="text-red-500 font-bold mb-3 text-base">
                 (+91) 9876-543-210
               </p>
@@ -77,9 +77,9 @@ const Footer = () => {
             <div>
               <h3 className="text-base font-semibold mb-3">Products</h3>
               <ul className="space-y-1 text-gray-700 text-sm">
-                <li>Ethnic</li>
-                <li>Western Wear</li>
-                <li>Co-Ords</li>
+                <li>Price</li>
+                <li>New Arrivals</li>
+                <li>Sitemap</li>
               </ul>
             </div>
 
@@ -99,7 +99,7 @@ const Footer = () => {
             {/* Subscribe to newsletter */}
             <div>
               <h3 className="text-base font-semibold mb-3">
-                Join S-Mal Couture{" "}
+                Join Gagan
               </h3>
               <p className="text-gray-700 mb-4 text-sm">
                 Subscribe to our latest trendy collection to get special

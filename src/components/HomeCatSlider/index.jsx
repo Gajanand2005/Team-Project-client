@@ -42,15 +42,15 @@ const HomeCatSlider = () => {
           className="mySwiper"
         >
           {[
-            { img: suit, title: "Suit" },
-            { img: bottom, title: "Bottom" },
-            { img: dethnic, title: "Co-ord ethnic" },
-            { img: dress, title: "Dress" },
-            { img: kurti, title: "Kurti" },
-            { img: skirt, title: "Skirt" },
-            { img: top, title: "Top" },
-            { img: west, title: "West co-ords" },
-            { img: wint, title: "Winter" },
+            { img: suit, title: "Fashine" },
+            { img: bottom, title: "ELectronics" },
+            { img: dethnic, title: "Bags" },
+            { img: dress, title: "Footwear" },
+            { img: kurti, title: "Groceries" },
+            { img: skirt, title: "Beauty" },
+            { img: top, title: "Wellness" },
+            { img: west, title: "Jewellery" },
+            
           ].map((item, index) => (
             <SwiperSlide key={index}>
               <Link to='/'>

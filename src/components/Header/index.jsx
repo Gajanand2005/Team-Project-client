@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/ba-removebg-preview.png";
+import logo from "../../assets/logo.jpg";
 import Search from "../Search";
 import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
@@ -80,7 +80,7 @@ const Header = () => {
           <div className="container flex flex-col md:flex-row items-center justify-between gap-3 ">
             <div className="col1 w-full md:w-[25%] flex justify-center md:justify-start">
               <Link to={"/"}>
-                <img src={logo} alt="Logo" className="h-[50px] md:h-[70px] w-[130px] md:w-[190px] object-cover bg-transparent "/>
+                <img src={logo} alt="Logo" className="  object-cover bg-transparent "/>
               </Link>
             </div>
             <div className="col2 w-full md:w-[40%] ">
@@ -112,7 +112,7 @@ const Header = () => {
 
                   <div className="info flex flex-col ">
                     <h4 className="text-[14px] leading-5 font-[600] !mb-0 capitalize text-left justify-start text-black">Gagan</h4>
-                    <span className="text-[13px] text-left justify-start text-black">smalcouture@gmail.com</span>
+                    <span className="text-[13px] text-left justify-start text-black">Gagan@gmail.com</span>
                   </div>
 
                  </div>

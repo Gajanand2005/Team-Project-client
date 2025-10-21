@@ -28,7 +28,7 @@ const AccountSidebar = () => {
                 </div>
 
                 <h3 className="text-[18px] md:text-[20px] font-[600]">Gagan</h3>
-                <p className="text-[12px] md:text-[14px] font-[600]">smalcouture@gmail.com</p>
+                <p className="text-[12px] md:text-[14px] font-[600]">Gagan2005@gmail.com</p>
               </div>
 
               <ul className="list-none pb-5 bg-[#f1f1f1] myAccountTabs">

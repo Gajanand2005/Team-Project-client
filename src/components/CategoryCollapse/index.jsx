@@ -20,7 +20,7 @@ const CategoryCollapse = () => {
         <ul className='w-full'>
           <li className='list-none relative flex-col'>
             <Link to='/' className='w-full'>
-              <Button className='w-full !text-left !justify-start !px-3 !text-black'>Ethnic</Button>
+              <Button className='w-full !text-left !justify-start !px-3 !text-black'>Fashine</Button>
             </Link>
             {submenuIndex === 0 ? (
              <FaRegSquareMinus
@@ -119,7 +119,7 @@ const CategoryCollapse = () => {
         <ul className='w-full'>
           <li className='list-none relative flex-col'>
             <Link to='/' className='w-full'>
-              <Button className='w-full !text-left !justify-start !px-3 !text-black'>West Wear</Button>
+              <Button className='w-full !text-left !justify-start !px-3 !text-black'>Electronic</Button>
             </Link>
             {submenuIndex === 1 ? (
              <FaRegSquareMinus
@@ -154,13 +154,13 @@ const CategoryCollapse = () => {
                       <ul className='inner_submenu  w-full !pl-3 !px-3'>
                         <li className='list-none relative mb-1'>
                           <Link to='/' className='link w-full !text-left !justify-start transition text-[13px]'>
-                            Winter Wear
+                            Mobile
                           </Link>
                         </li>
                         <li className='list-none relative mb-1'>
                           <Link to='/' className='link w-full !text-left !justify-start transition text-[13px]'>
-                           Summer Wear
-                          </Link>
+                           Laptops
+                           </Link>
                         </li>
                         
                       </ul>
@@ -172,7 +172,7 @@ const CategoryCollapse = () => {
           </li>
           <li className='list-none relative flex-col'>
             <Link to='/' className='w-full'>
-              <Button className='w-full !text-left !justify-start !px-3 !text-black'>Co-ords</Button>
+              <Button className='w-full !text-left !justify-start !px-3 !text-black'>Bags</Button>
             </Link>
             {submenuIndex === 2 ? (
              <FaRegSquareMinus
@@ -207,12 +207,12 @@ const CategoryCollapse = () => {
                       <ul className='inner_submenu  w-full !pl-3 !px-3'>
                         <li className='list-none relative mb-1'>
                           <Link to='/' className='link w-full !text-left !justify-start transition text-[13px]'>
-                            Western Co-ords
+                            Men Bages
                           </Link>
                         </li>
                         <li className='list-none relative mb-1'>
                           <Link to='/' className='link w-full !text-left !justify-start transition text-[13px]'>
-                            Ethnic Co-ords
+                           Women Bags
                           </Link>
                         </li>
                       

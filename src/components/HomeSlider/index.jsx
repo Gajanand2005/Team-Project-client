@@ -3,10 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
-import banner1 from '../../assets/ban1.jpg'
-import banner2 from '../../assets/ban2.jpg'
-import banner3 from '../../assets/ban3.jpg'
-import banner4 from '../../assets/ban4.jpg'
+
 const HomeSlider = () => {
   return (
     <div className="homeSlider">
@@ -31,7 +28,7 @@ const HomeSlider = () => {
           <SwiperSlide key="slide-1">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner1}
+                src='https://serviceapi.spicezgold.com/download/1759938778050_30745.jpg'
                 alt="Banner Slide"
                 className="w-[50%] "
               />
@@ -40,7 +37,7 @@ const HomeSlider = () => {
           <SwiperSlide key="slide-2">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner2}
+                src='https://serviceapi.spicezgold.com/download/1759938751802_30744.jpg'
                 alt="Banner Slide"
                 className="w-[50%] "
               />
@@ -49,7 +46,7 @@ const HomeSlider = () => {
           <SwiperSlide key="slide-3">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner3}
+                src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
                 className="w-[50%]"
               />
@@ -58,7 +55,7 @@ const HomeSlider = () => {
            <SwiperSlide key="slide-4">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner4}
+                src='https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg'
                 alt="Banner Slide"
                 className="w-[50%]"
               />
@@ -67,7 +64,7 @@ const HomeSlider = () => {
           <SwiperSlide key="slide-5">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner1}
+                src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
                 className="w-[50%]"
               />
@@ -76,7 +73,7 @@ const HomeSlider = () => {
           <SwiperSlide key="slide-6">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner2}
+                src='https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg'
                 alt="Banner Slide"
                 className="w-[50%]"
               />
@@ -85,7 +82,7 @@ const HomeSlider = () => {
           <SwiperSlide key="slide-7">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner3}
+                src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
                 className="w-[50%]"
               />
@@ -94,7 +91,7 @@ const HomeSlider = () => {
            <SwiperSlide key="slide-8">
             <div className="item rounded-[20px] overflow-hidden">
               <img
-                src={banner4}
+                src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
                 className="w-[50%]"
               />

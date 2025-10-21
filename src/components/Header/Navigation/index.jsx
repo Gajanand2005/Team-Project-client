@@ -44,7 +44,7 @@ const Navigation = () => {
                 >
                   
                   <Button className="link transition !font-[500] !font-bold !text-[rgba(0,0,0,0.7)] hover:!text-[#ff5252]">
-                    Ethnic
+                    Fashine
                   </Button>
                 </Link>
 
@@ -150,7 +150,7 @@ const Navigation = () => {
                   className="link transition text-[16px] !font-[500]"
                 >
                   <Button className="link transition !font-[500] !font-bold !text-[rgba(0,0,0,0.7)] hover:!text-[#ff5252]">
-                    West Wear
+                    Bags
                   </Button>
                 </Link>
 
@@ -159,51 +159,24 @@ const Navigation = () => {
                     <li className="list-none w-full relative">
                       <Link to="/" className="w-full">
                         <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                          Winter Wear
+                          Man 
                         </Button>
                       </Link>
                       <div className="submenu absolute top-[0%] left-[100%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
                         <ul>
-                          <li className="list-none w-full">
-                            <Link to="/" className="w-full">
-                              <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                                Top
-                              </Button>
-                            </Link>
-                          </li>
-                          <li className="list-none w-full">
-                            <Link to="/" className="w-full">
-                              <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                              Bottom
-                              </Button>
-                            </Link>
-                          </li>
+                          
+                         
                         </ul>
                       </div>
                     </li>
                     <li className="list-none w-full">
                       <Link to="/" className="w-full">
                         <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                          Summer Wear
+                          Woman
                         </Button>
                       </Link>
                       <div className="submenu absolute top-[0%] left-[100%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
-                        <ul>
-                          <li className="list-none w-full">
-                            <Link to="/" className="w-full">
-                              <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                                Top
-                              </Button>
-                            </Link>
-                          </li>
-                          <li className="list-none w-full">
-                            <Link to="/" className="w-full">
-                              <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                              Bottom
-                              </Button>
-                            </Link>
-                          </li>
-                        </ul>
+                        
                       </div>
                     </li>
                   </ul>
@@ -215,27 +188,10 @@ const Navigation = () => {
                   className="link transition text-[16px] !font-[500]"
                 >
                   <Button className="link transition !font-[500] !font-bold !text-[rgba(0,0,0,0.7)] hover:!text-[#ff5252]">
-                    Co-Ords
+                   Footwear
                   </Button>
                 </Link>
-                <div className="submenu absolute top-[120%] left-[0%] min-w-[150px] bg-white shadow-md opacity-0 transition-all">
-                  <ul>
-                    <li className="list-none w-full">
-                      <Link to="/" className="w-full">
-                        <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                          Western Co-Ords
-                        </Button>
-                      </Link>
-                      </li>
-                      <li className="list-none w-full">
-                      <Link to="/" className="w-full">
-                        <Button className="!text-[rgba(0,0,0,0.8)] w-full !text-left !justify-start !rounded-none">
-                          Ethnic Co-Ords
-                        </Button>
-                      </Link>
-                      </li>
-                      </ul>
-                      </div>
+            
                 
               </li>
             </ul>

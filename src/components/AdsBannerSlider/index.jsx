@@ -2,10 +2,7 @@ import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import banner1 from '../../assets/ban1.jpg'
-import banner2 from '../../assets/ban2.jpg'
-import banner3 from '../../assets/ban3.jpg'
-import banner4 from '../../assets/ban4.jpg'
+
 
 import { Navigation } from 'swiper/modules';
 import BannerBox from '../BannerBox';
@@ -20,19 +17,19 @@ const AdsBannerSlider = (props) => {
                 className="mySwiper"
               >
             <SwiperSlide>
-           <BannerBox img={banner1} link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1759938778050_30745.jpg' link={'/'} />
             </SwiperSlide>
 
              <SwiperSlide>
-           <BannerBox img={banner2} link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1759938751802_30744.jpg' link={'/'} />
             </SwiperSlide>
 
              <SwiperSlide>
-           <BannerBox img={banner3} link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg' link={'/'} />
             </SwiperSlide>
 
                <SwiperSlide>
-           <BannerBox img={banner4} link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg' link={'/'} />
             </SwiperSlide>
               </Swiper>
     </div>
