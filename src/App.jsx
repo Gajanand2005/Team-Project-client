@@ -25,6 +25,7 @@ import MyAccount from "./Pages/MyAccount/index.jsx";
 import MyList from "./Pages/MyList/index.jsx";
 import Order from "./Pages/Orders/index.jsx";
 import Whataap from "./components/Whataap/index.jsx";
+import BlogList from "./components/BlogList/index.jsx";
 
 const MyContext = createContext();
 
@@ -91,6 +92,7 @@ const App = () => {
               <Route path={"/my-order"} exact={true} element={<Order />} />
           </Routes>
           <Whataap/>
+          <BlogList/>
           <Footer />
         </MyContext.Provider>
       </BrowserRouter>

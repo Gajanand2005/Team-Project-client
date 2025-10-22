@@ -9,16 +9,16 @@ const HomeSlider = () => {
     <div className="homeSlider">
       <div className="container">
         <Swiper
-          spaceBetween={-570}
+          spaceBetween={10}
           breakpoints={{
             320: {
-              spaceBetween: -100,
+              spaceBetween: 10,
             },
             640: {
-              spaceBetween: -300,
+              spaceBetween: 10,
             },
             1024: {
-              spaceBetween: -570,
+              spaceBetween: 10,
             },
           }}
           modules={[Navigation, Autoplay]}
@@ -30,7 +30,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1759938778050_30745.jpg'
                 alt="Banner Slide"
-                className="w-[50%] "
+                className="w-[100%] "
               />
             </div>
           </SwiperSlide>
@@ -39,7 +39,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1759938751802_30744.jpg'
                 alt="Banner Slide"
-                className="w-[50%] "
+                className="w-[100%] "
               />
             </div>
           </SwiperSlide>
@@ -48,7 +48,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
-                className="w-[50%]"
+                className="w-[100%]"
               />
             </div>
           </SwiperSlide>
@@ -57,7 +57,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg'
                 alt="Banner Slide"
-                className="w-[50%]"
+                className="w-[100%]"
               />
             </div>
           </SwiperSlide>
@@ -66,7 +66,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
-                className="w-[50%]"
+                className="w-[100%]"
               />
             </div>
           </SwiperSlide>
@@ -75,7 +75,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg'
                 alt="Banner Slide"
-                className="w-[50%]"
+                className="w-[100%]"
               />
             </div>
           </SwiperSlide>
@@ -84,7 +84,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
-                className="w-[50%]"
+                className="w-[100%]"
               />
             </div>
           </SwiperSlide>
@@ -93,7 +93,7 @@ const HomeSlider = () => {
               <img
                 src='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg'
                 alt="Banner Slide"
-                className="w-[50%]"
+                className="w-[100%]"
               />
             </div>
           </SwiperSlide>

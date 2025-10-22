@@ -27,7 +27,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="py-6 bg-red-200">
+      <footer className="py-6 bg-red-200 !mt-10">
         <div className="container">
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
             <div className="col flex items-center justify-center flex-col group w-full sm:w-[15%]">
