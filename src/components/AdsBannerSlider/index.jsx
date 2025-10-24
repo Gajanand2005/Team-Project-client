@@ -14,20 +14,20 @@ const AdsBannerSlider = (props) => {
                 modules={[Navigation]}
                 className="mySwiper"
               ><SwiperSlide>
-           <BannerBox img='https://serviceapi.spicezgold.com/download/1759938778050_30745.jpg' link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1741669012402_banner1.webp' link={'/'} />
             </SwiperSlide>
 
             
              <SwiperSlide>
-           <BannerBox img='https://serviceapi.spicezgold.com/download/1759938751802_30744.jpg' link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1741669037986_banner2.webp' link={'/'} />
             </SwiperSlide>
 
              <SwiperSlide>
-           <BannerBox img='https://serviceapi.spicezgold.com/download/1748955932914_NewProject(1).jpg' link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1741669057847_banner5.webp' link={'/'} />
             </SwiperSlide>
 
                <SwiperSlide>
-           <BannerBox img='https://serviceapi.spicezgold.com/download/1751685130717_NewProject(8).jpg' link={'/'} />
+           <BannerBox img='https://serviceapi.spicezgold.com/download/1742453755529_1741669087880_banner6.webp' link={'/'} />
             </SwiperSlide>
               </Swiper>
     </div>
